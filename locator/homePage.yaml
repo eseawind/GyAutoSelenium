@@ -1,0 +1,71 @@
+username:
+  type:id
+  value:"userName-inputEl"
+passwd:
+  type:id
+  value:"userPwd-inputEl"
+loginBTN:
+  type:xpath
+  value:"//span[@class='x-btn-inner x-btn-inner-center']" 
+#注释 value1"//span[@class='x-btn-inner x-btn-inner-center']"
+
+#工作台:
+WarnDetail:
+  type:xpath
+  value:"//img[@class='x-action-col-icon x-action-col-0   ' ]"
+TempOil:
+  type:xpath
+  value:"//div[@class='x-window x-layer x-window-default x-closable x-window-closable x-window-default-closable x-resizable x-window-resizable x-window-default-resizable' ]"
+btnClose:
+  type:xpath
+  value:"//div[@id='Gy.ui.system.STerminalWarnOptEditor_header-innerCt']/div/div/img[@class='x-tool-img x-tool-close']"
+  
+#报警中心 页面选项卡 元素
+tabbarpath:
+  type:xpath
+  value:"/html/body/div[contains(@id,'panel')]/div/div/div[contains(@id,'tabbar')]/div/div/div/div//a/span[@class='x-tab-inner x-tab-inner-center']"
+
+lisstartDate:
+  type:xpath
+  value:"//table[contains(@id,'startDate')]/tbody/tr/td//input[contains(@id,'startDate-input')]"
+lisstartTime:
+  type:xpath
+  value:"//table[contains(@id,'startTime')]/tbody/tr/td//input[contains(@id,'startTime-input')]"
+lisendDate:
+  type:xpath
+  value:"//table[contains(@id,'endDate')]/tbody/tr/td//input[contains(@id,'endDate-input')]"
+lisendTime:
+  type:xpath
+  value:"//table[contains(@id,'endTime')]/tbody/tr/td//input[contains(@id,'endTime-input')]"
+trigType:
+  type:xpath
+  value:"//table[contains(@id,'Type-triggerWrap')]/tbody/tr/td[contains(@id,'ext-gen')]/div[contains(@id,'ext-gen')]"
+
+  
+#车辆监控start   
+CarTrees:
+  type:xpath
+  value:"//div[contains(@id,'wg1pnCarContain')]/div[contains(@id,'wg1pnCarContain-body')]/div[contains(@id,'wg1treeMonitorCar')]/div[contains(@id,'wg1treeMonitorCar-body')]/div/table/tbody/tr"
+menuTemplateAndOil:
+  type:xpath
+  value:"//div[contains(@id,'menuitem-')]/a[contains(@id,'menuitem-')]/span[contains(@id,'menuitem-')]"
+#分段里程查询
+GroupMileageTabName:
+  type:xpath
+  value:"//span[contains(@id,'-btnInnerE')][contains(@id,'tab-')][contains(@class,'x-tab-inner x-tab-inner-center')]"
+startdate:
+  type:xpath
+  value:"//input[contains(@id,'partStartDate-input')]"
+starttime:
+  type:xpath
+  value:"//input[contains(@id,'partStartTime-input')]"
+enddate:
+  type:xpath
+  value:"//input[contains(@id,'partEndDate-input')]"
+endtime:
+  type:xpath
+  value:"//input[contains(@id,'partEndTime-input')]"    
+btnGroupMileage:
+  type:xpath
+  value:"//span[contains(@id,'btnInner')][contains(@class,'x-btn-inner x-btn-inner-center')]"
+#end车辆监控 

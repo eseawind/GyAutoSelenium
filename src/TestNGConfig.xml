@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="com.guyi.TestNG.TestNGBase"/>      
+      <class name="com.guyi.TestNG.HomePageTest"/>
+      <class name="com.guyi.TestNG.CarMonitorTest"/> 
+    </classes>
+  </test> <!-- Test
+ 
+  
+   -->
+  	<listeners>
+		<listener class-name="com.guyi.TestNG.GyTestNGListener" />
+	</listeners>
+</suite> <!-- Suite -->
