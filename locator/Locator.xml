@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages systemname="GyColdChain" >
+    
+  <page name="WarnCenter">
+    <element name="btnclose" type="xpath" value="//div/span"/>    
+  </page>   
+  <page name="CarMonitor">
+    <element name="btnquery" type="xpath" value="//div/span/a"/>    
+  </page>  
+  <page name="CarMonitor2">
+    <element name="btnquery2" type="xpath" value="//div/span/a"/>    
+  </page>    
+</pages>
