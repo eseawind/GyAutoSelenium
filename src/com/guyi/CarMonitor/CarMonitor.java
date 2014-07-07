@@ -96,7 +96,7 @@ public class CarMonitor extends BasePage {
 				return result;
 			}
 		return result;
-	}  
+	}
 
 	public boolean contextMenu(){
 		
